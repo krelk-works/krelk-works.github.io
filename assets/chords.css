@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.text_shadow {
+    text-shadow: 0 0 15px rgba(255, 255, 255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+.white_text {
+    color: white;
+}
+
+.chords {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important;
+    font-size: calc(2vh + 2vw);
+}
